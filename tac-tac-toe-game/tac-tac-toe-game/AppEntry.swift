@@ -1,5 +1,5 @@
 //
-//  tac_tac_toe_gameApp.swift
+//  AppEntry.swift
 //  tac-tac-toe-game
 //
 //  Created by Jackson Wiese on 3/7/23.
