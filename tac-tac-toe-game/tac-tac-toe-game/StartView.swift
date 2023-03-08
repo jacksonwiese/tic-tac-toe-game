@@ -13,15 +13,17 @@ struct StartView: View {
     @State private var yourName = ""
     @State private var opponentName = ""
     @FocusState private var keyboardActive:Bool //defaults to false
-    @State private var startGame = false //once the player selects "Start game" this will be switched to true until the user ends the game (and does not choose to play another game)
+    @State private var startGame = false //once the player selects "Start game" this will be switched to true until the user ends the game (and does not choose to play another)
     @EnvironmentObject var game:GameService
     
     var body: some View {
-        
+        VStack{
+            
+        }
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct StartView_Previews: PreviewProvider {
     static var previews: some View {
         StartView()
     }
