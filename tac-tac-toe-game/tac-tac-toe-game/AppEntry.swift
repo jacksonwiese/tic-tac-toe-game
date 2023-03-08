@@ -8,10 +8,12 @@
 import SwiftUI
 
 @main
-struct tac_tac_toe_gameApp: App {
+struct AppEntry: App {
+    @StateObject var game = GameService()
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(game)
         }
     }
 }

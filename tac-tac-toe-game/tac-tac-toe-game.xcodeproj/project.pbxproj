@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0862EAD629B805E50038CBBB /* tac_tac_toe_gameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0862EAD529B805E50038CBBB /* tac_tac_toe_gameApp.swift */; };
+		0862EAD629B805E50038CBBB /* AppEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0862EAD529B805E50038CBBB /* AppEntry.swift */; };
 		0862EAD829B805E50038CBBB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0862EAD729B805E50038CBBB /* ContentView.swift */; };
 		0862EADA29B805EB0038CBBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0862EAD929B805EB0038CBBB /* Assets.xcassets */; };
 		0862EADD29B805EB0038CBBB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0862EADC29B805EB0038CBBB /* Preview Assets.xcassets */; };
@@ -15,7 +15,7 @@
 
 /* Begin PBXFileReference section */
 		0862EAD229B805E50038CBBB /* tac-tac-toe-game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tac-tac-toe-game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0862EAD529B805E50038CBBB /* tac_tac_toe_gameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tac_tac_toe_gameApp.swift; sourceTree = "<group>"; };
+		0862EAD529B805E50038CBBB /* AppEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEntry.swift; sourceTree = "<group>"; };
 		0862EAD729B805E50038CBBB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0862EAD929B805EB0038CBBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0862EADC29B805EB0038CBBB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -51,7 +51,7 @@
 		0862EAD429B805E50038CBBB /* tac-tac-toe-game */ = {
 			isa = PBXGroup;
 			children = (
-				0862EAD529B805E50038CBBB /* tac_tac_toe_gameApp.swift */,
+				0862EAD529B805E50038CBBB /* AppEntry.swift */,
 				0862EAD729B805E50038CBBB /* ContentView.swift */,
 				0862EAD929B805EB0038CBBB /* Assets.xcassets */,
 				0862EADB29B805EB0038CBBB /* Preview Content */,
@@ -138,7 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0862EAD829B805E50038CBBB /* ContentView.swift in Sources */,
-				0862EAD629B805E50038CBBB /* tac_tac_toe_gameApp.swift in Sources */,
+				0862EAD629B805E50038CBBB /* AppEntry.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
