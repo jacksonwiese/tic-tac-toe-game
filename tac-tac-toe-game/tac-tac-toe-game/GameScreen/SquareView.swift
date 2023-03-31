@@ -23,7 +23,7 @@ struct SquareView: View {
         } label: {
             game.gameBoard[index].image
                 .resizable()
-                .frame(width:100, height: 100) //the boundary has a height
+                .frame(width:75, height: 75) //the boundary has a height
                 .border(.primary)
         }
         .disabled(game.gameBoard[index].player != nil)

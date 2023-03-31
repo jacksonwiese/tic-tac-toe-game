@@ -51,36 +51,49 @@ struct Player{
 
 //fixed datatypes use enum
 enum Moves{
-    static var all = [1,2,3,4,5,6,7,8,9]
+    
+    static var all = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16]
     static var winningMoves = [
         //Horizontal matching
-        [1,2,3],
+        [1,2,3,4],
         
-        [4,5,6],
+        [5,6,7,8],
         
-        [7,8,9],
+        [9,10,11,12],
+        
+        [13,14,15,16],
  
         //Vertical matching
         [1,
-        4,
-        7],
+        5,
+        9,
+        13],
         
         [2,
-        5,
-        8],
+        6,
+        10,
+        14],
         
         [3,
-        6,
-        9],
+        7,
+        11,
+        15],
+        
+        [4,
+        8,
+        12,
+        16],
         
         //Diagonal matching
         [1,
-            5,
-                9],
+            6,
+                11,
+                    16],
         
-                [3,
-            5,
-        7]
+                    [4,
+                7,
+            10,
+        13]
         
     ]
 }

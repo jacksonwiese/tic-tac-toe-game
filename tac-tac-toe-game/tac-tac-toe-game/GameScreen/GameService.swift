@@ -80,6 +80,7 @@ class GameService:ObservableObject{
         gameOver = false
         possibleMoves = Moves.all
         gameBoard = GameSquare.reset
+        isThinking = false
     }//end of func reset
     
     //this function runs every time we're trying to upate the move

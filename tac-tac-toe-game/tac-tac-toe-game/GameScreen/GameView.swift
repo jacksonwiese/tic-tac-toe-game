@@ -40,23 +40,33 @@ struct GameView: View {
             
             //create a gameboard
             VStack{
+                //1st row
                 HStack{
-                    ForEach(0...2, id:\.self){
+                    ForEach(0...3, id:\.self){
                         index in SquareView(index: index)
                     }
                 }//end of first HStack
                 
+                //2nd row
                 HStack{
-                    ForEach(3...5, id:\.self){
+                    ForEach(4...7, id:\.self){
                         index in SquareView(index: index)
                     }
                 }//end of second HStack
                 
+                //3rd row
                 HStack{
-                    ForEach(6...8, id:\.self){
+                    ForEach(8...11, id:\.self){
                         index in SquareView(index: index)
                     }
                 }//end of third HStack
+                
+                //4th row
+                HStack{
+                    ForEach(12...15, id:\.self){
+                        index in SquareView(index: index)
+                    }
+                }//end of fourth HStack
                 
             }//end of VStack
             .disabled(game.boardDisabled) //game is instance, boardDisabled is a variable(bool)

@@ -22,7 +22,7 @@ struct GameSquare{
     //reset function clears all the images
     static var reset:[GameSquare]{
         var squares=[GameSquare]()
-        for index in 1...9{
+        for index in 1...16{
             squares.append(GameSquare(id: index))
         }
         return squares
