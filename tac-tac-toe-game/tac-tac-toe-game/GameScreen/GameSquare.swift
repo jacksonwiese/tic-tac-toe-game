@@ -15,7 +15,7 @@ struct GameSquare{
             return player.gamePiece.image
         }
         else{
-            return Image("none")
+            return Image("none")//this is the empty image in assets
         }
     }//end of Image
     
