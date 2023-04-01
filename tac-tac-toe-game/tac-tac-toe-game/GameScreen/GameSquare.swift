@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct GameSquare{
-    var id:Int //to track tiles 1 to 9
+    var id:Int //to track tiles 1 to 16
     var player: Player?
     var image:Image{
         if let player = player{
