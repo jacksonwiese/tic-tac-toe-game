@@ -10,7 +10,7 @@
 
 import SwiftUI
 
-struct NavStackContainer:ViewModifier{
+struct NavStackContainer: ViewModifier{
     
     func body(content: Content) -> some View { //function checking for IOS version
         if #available(iOS 16, *){ //want to run the Navigation Stack
